@@ -71,7 +71,7 @@ export default function Display({
       }
       return setSession(nextTick)
     },
-    isTimerRunning ? 1000 : null,
+    isTimerRunning ? 999 : null,
   )
   return (
     <div>
